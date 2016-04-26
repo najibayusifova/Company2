@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@font-face {
+  font-family: 'lato';
+  src: url("fonts/Lato-Regular.ttf"); }
+@font-face {
+  font-family: 'ajure';
+  src: url("fonts/KaushanScript-Regular.ttf"); }
+.pp,
+h3,
+navbar,
+p {
+  font-family: 'lato' !important; }
+
+.fa {
+  color: cornsilk; }
+
+body {
+  background:url("http://www.webdesignideas.org/images/bellevueBg.gif");
+
+  background-attachment: fixed; }
+
+.no-gutter [class*="col"],
+.container {
+  padding-left: 0;
+  padding-right: 0; }
+
+.no-margin {
+  margin: 0; }
+
+
+  h3, h4 {
+            margin: 10px 0 27px 0;
+    /* letter-spacing: 5px; */
+    font-size: 26px;
+        color: #430684;
+
+  }
+  .container {
+      padding: 80px 120px;
+  }
+.nav-tabs li a {
+      color: #777;
+  }
+ 
+  .navbar {
+    height: 63px;
+      font-family: Montserrat, sans-serif;
+      margin-bottom: 0;
+    /* background-color: #AD0C56;*/
+      border: 0;
+      font-size: 15px !important;
+      letter-spacing: 4px;
+      opacity: 0.9;
+  }
+  .navbar li a, .navbar  { 
+            color: #5658B5 !important;
+    font-size: 18px;
+    letter-spacing: 0px;
+  }
+ #logo{
+        width: 149px;
+    height: 61px;
+    margin-top: -15px;
+    margin-left: -34px;
+ }
+  .navbar-nav li.active a {
+      color: #fff !important;
+     border-bottom: 3px solid rgba(228, 215, 215, 0.9);
+  transition: all 0.5s; color:#EDF1F3;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;    margin-right: 139px;
+  }
+  
+  .dropdown-menu li a {
+         color: #09134A !important;
+  }
+  .dropdown-menu li a:hover {
+    border-bottom: 3px solid rgba(228, 215, 215, 0.9);
+  transition: all 0.5s; color:#EDF1F3;
+  }
+
+.container-fluid {
+    background: #f5f5f5;
+  }
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #eee;
+      border-bottom: 3px solid #E34BA6;
+   /* transition: all 0.5s;*/
+
+}.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: #555;
+    background-color: rgba(171, 34, 84, 0.59);
+}
+
+.navbar-nav>li>.dropdown-menu {
+    margin-top: 8px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+        /* Sadliq saraylari*/
+#Sadliq{
+   margin-top: 96px;
+    margin-left: 118px;
+}
+        .view {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+    border: 5px solid #ffeee5;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #fff2e5;
+    cursor: default;
+    background: #e5e5ff url(http://static.tumblr.com/ede2d137e59ffd404860a2316214bff4/qqccj2y/8Ecnm5knv/tumblr_static_88yotmxqmq4o8o0oss8wssgco.jpg) no-repeat center center
+}
+.view .mask, .view .content {
+    width: 210px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    width: 288px;
+    position: relative;
+    overflow: hidden;
+}
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #660022;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+/* Tenth */
+.view-tenth img { 
+    transform: scaleY(1);
+    transition: all 0.7s ease-in-out;/* border-radius: 50%;*/
+}
+.view-tenth .mask { 
+    background-color: rgba(255, 231, 179, 0.3); 
+    transition: all 0.5s linear;
+    opacity: 0;
+}   
+.view-tenth h2{
+    border-bottom: 3px solid rgba(0, 0, 0, 0.3);
+    background: transparent;
+    margin: 20px 40px 0px 18px;
+    transform: scale(0);
+    color: #333;
+    transition: all 0.5s linear;
+    opacity: 0;border-radius: 50%;
+}
+.view-tenth p {
+    color: #333;
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-tenth a.info { 
+    opacity: 0;
+    transform: scale(0);
+    transition: all 0.5s linear;
+}
+.view-tenth:hover img { 
+    transform: scale(10);
+    opacity: 0;
+}
+.view-tenth:hover .mask { 
+    opacity: 1;
+}                                                                            
+.view-tenth:hover h2,
+.view-tenth:hover p,
+.view-tenth:hover a.info{ 
+    transform: scale(1);
+    opacity: 1;
+}
+
+
+
+    /* FOOTER HISSE*/
